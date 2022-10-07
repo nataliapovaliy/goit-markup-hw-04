@@ -17,6 +17,7 @@ html {
     --button-bg-volor-porfolio: #F5F4FA;
     --section-bg-color: #F5F4FA;
     --text-transparency-color: rgba(255, 255, 255, 0.6);
+   
 }
 
 body {
@@ -110,6 +111,9 @@ header {
 .kontact-nav .item + .item {
     margin-left: 50px;
 }
+.item-icon-kontact {
+    fill: currentColor;
+}
 .kontact-nav .link {
     display: block;
     padding-top: 32px;
@@ -135,6 +139,14 @@ header {
     padding-bottom: 200px;
     background-color: var(--footer-bg-color);
     text-align: center;
+    flex-grow: 1;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4), 
+        rgba(47, 48, 58, 0.4)), 
+        url('../images/img-logo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     }
 .hero-title {
     width: 696px;
@@ -179,6 +191,21 @@ header {
 }
 .section-list .item + .item {
     margin-left: 30px;
+}
+.section-icon {
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: var(--section-bg-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.img-icon {
+    display: flex;
+    /* justify-content: center;  */
+    margin: auto;
 }
 .section-subtitle {
     margin-top: 0;
