@@ -17,6 +17,7 @@ html {
     --button-bg-volor-porfolio: #F5F4FA;
     --section-bg-color: #F5F4FA;
     --text-transparency-color: rgba(255, 255, 255, 0.6);
+    --icon-transparency-color: rgba(255, 255, 255, 0.1);
     --color-icons: #AFB1B8;
 }
 
@@ -439,6 +440,11 @@ footer {
     padding-bottom: 60px;
     background-color: var(--footer-bg-color);
 }
+.footer-list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+}
 .logo-accent-footer {
     color: var(--accent-text-color);
 }
@@ -462,4 +468,20 @@ footer {
 }
 .footer-contact-item:not(:last-child) {
     margin-bottom: 9px;
+}
+.footer-title-soc {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--accent-text-color);
+}
+.team-soc-link.footer-soc-link {
+    background-color: var(--icon-transparency-color);
+    color: var(--accent-bg-color);
+}
+.team-soc-link.footer-soc-link:hover,
+.team-soc-link.footer-soc-link:focus {
+    background-color: var(--accent-color);
 }
