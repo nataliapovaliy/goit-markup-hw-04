@@ -114,6 +114,7 @@ header {
 }
 .item-icon-kontact {
     fill: currentColor;
+    margin-right: 10px;
 }
 .kontact-nav .link {
     display: block;
@@ -342,7 +343,7 @@ img {
 }
 .client-link:hover,
 .client-link:focus {
-    color: var(--accent-bg-color);
+    color: var(--accent-color);
 }
 
 /* -------------portfolio.html------------- */
