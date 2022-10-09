@@ -217,7 +217,7 @@ header {
 .img-icon {
   display: flex;
   /* justify-content: center;  */
-  margin: auto;
+  /* margin: auto; */
 }
 .section-subtitle {
   margin-top: 0;
